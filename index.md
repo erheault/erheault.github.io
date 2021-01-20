@@ -1,3 +1,5 @@
+![Image](https://i.pinimg.com/originals/9f/1d/da/9f1dda10df1ba896fd432ff21169de72.jpg)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/erheault/erheault.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
