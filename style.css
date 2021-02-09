@@ -4,3 +4,9 @@
   font-size: 100%;
   --banner-size: 12em;
 }
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50
+}
