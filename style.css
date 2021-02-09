@@ -2,5 +2,13 @@
 h1 {
     text-align: center;
     text-transform: uppercase;
-    color: #4CAF50
+    color: #4CAF50;
+}
+
+#name {
+    color: #4CAF50;
+}
+
+.position {
+    color: #4CAF50;
 }
