@@ -1,5 +1,5 @@
 ﻿:root {
-    --banner-size: 5em;
+    --banner-size: 80px;
     background-color: #f4ede7;
 }
 
@@ -7,18 +7,29 @@ body {
     margin: 0;
 }
 
-.banner {
+/* 
+ * Settings to specify top banner
+ */
+#page-banner {
     position: fixed;
     width: 100%;
+    min-height: var(--banner-size);
     background-color: #7a8962;
     margin-top: 0;
 }
 
-#title {
+.banner-item {
     color: #f4ede7;
-    text-align: center;
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    padding-top: 4px;
+    /* vertical-align: 50%; */
 }
 
+/*
+ * Offset page so banner doesn't block top of page
+ */
 #main-page {
     padding-top: var(--banner-size);
 }
