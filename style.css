@@ -1,18 +1,24 @@
-﻿
-h1 {
+﻿:root {
+    --banner-size: 5em;
+    background-color: #f4ede7;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    position: fixed;
+    width: 100%;
+    background-color: #7a8962;
+    margin-top: 0;
+}
+
+#title {
+    color: #f4ede7;
     text-align: center;
-    text-transform: uppercase;
-    color: #4CAF50;
 }
 
-#name {
-    color: #4CAF50;
-}
-
-.position {
-    color: #4CAF50;
-}
-
-nav {
-    display: block;
+#main-page {
+    padding-top: var(--banner-size);
 }
