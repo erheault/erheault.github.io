@@ -65,9 +65,32 @@ img.banner-item {
     margin-top: .25em;
 }
 
+#contact-info-header {
+    margin-bottom: 0;
+}
+
+.contact-info {
+    font-size: 1em;
+    margin: 0;
+}
+
+#name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#street-address {
+    margin: 0;
+}
+
+#email {
+    padding-bottom: 1em;
+}
+
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
+    margin: 0;
     color: #54747f;
 }
 
