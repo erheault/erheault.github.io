@@ -136,7 +136,8 @@ ul {
  * Add spacing for list padding
  */
 li {
-    padding-bottom: 0.75em;
+    padding: 0.75em;
+    padding-top: 0;
 }
 
 /*
