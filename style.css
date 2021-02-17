@@ -1,4 +1,8 @@
-﻿:root {
+﻿/*----------------------------------------
+ *          |General atributes|
+ *----------------------------------------*/
+
+:root {
     --banner-size: 5em;
     background-color: #f4ede7;
 }
@@ -6,6 +10,10 @@
 body {
     margin: 0;
 }
+
+/*----------------------------------------
+ *          |Banner atributes|
+ *----------------------------------------*/
 
 /* 
  * Settings to specify top banner
@@ -38,6 +46,10 @@ img.banner-item {
     width: 5em;
 }
 
+/*----------------------------------------
+ *         |Main Page atributes|
+ *----------------------------------------*/
+
 /*
  * Offset page so banner doesn't block top of page
  */
@@ -45,9 +57,10 @@ img.banner-item {
     padding-top: var(--banner-size);
 }
 
-#navigation-link {
-    color: #ccd4d6;
-}
+
+/*----------------------------------------
+ *          |Footer atributes|
+ *----------------------------------------*/
 
 #footer {
     background-color: #8e7636;

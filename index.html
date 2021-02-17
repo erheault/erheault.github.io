@@ -8,6 +8,11 @@
         </title>
     </head>
     <body>
+
+        <!------------------------------------------------->
+        <!--------------   | Page Banner |   -------------->
+        <!------------------------------------------------->
+
         <div id="page-banner" class="banner">
             <img class="banner-item" src="meCropped.png" alt="Image of myself">
             <header>
@@ -16,170 +21,192 @@
                 </h1>
             </header>
         </div>
+
+
+        
+        <!------------------------------------------------->
+        <!---------------   | Main Page |   --------------->
+        <!------------------------------------------------->
+
         <div id="main-page">
-            <div id="main-resume">
-                <section id="contact-info" class="resume-section">
-                    <h2 class="section-header">
-                        Contact Information
-                    </h2>
-                    <p id="name">
-                        Elliott Rheault
+           <!------------------ contact-info ------------------>
+           <section id="contact-info" class="resume-section">
+                <h2 class="section-header">
+                    Contact Information
+                </h2>
+                <p id="name">
+                    Elliott Rheault
+                </p>
+                <h3 class="subset-header">Address</h3>
+                <address id="home-address" class="address">
+                    
+                    <p class="street-address">
+                        <span class="address street">
+                            104 Melissa Ct.<br>
+                        </span>
+                        <span class="address city">
+                            Bridgewater 
+                        </span>
+                        <span class="address state">
+                            VA,
+                        </span>
+                        <span class="address postal-code">
+                            22812
+                        </span>
                     </p>
-                    <h3 class="subset-header">Address</h3>
-                    <address id="home-address" class="address">
-                        
-                        <p class="street-address">
-                            <span class="address street">
-                                104 Melissa Ct.<br>
-                            </span>
-                            <span class="address city">
-                                Bridgewater 
-                            </span>
-                            <span class="address state">
-                                VA,
-                            </span>
-                            <span class="address postal-code">
-                                22812
-                            </span>
-                        </p>
-                    </address>
-                    <address id="email">
-                        <a href="mailto:erheault@vt.edu">
-                            erheault@vt.edu
-                        </a>
-                    </address>
-                </section> <!-- contact-info -->
-    
-                <section id="education" class="credentials resume-section">
-                    <h2 class="section-header">
-                        Education
-                    </h2>
-                    <ul>
-                        <li class="degree">
-                            BS in Computer Science, Virginia Tech, GPA: 3.3
-                        </li>
+                </address>
+                <address id="email">
+                    <a href="mailto:erheault@vt.edu">
+                        erheault@vt.edu
+                    </a>
+                </address>
+            </section>
+            <!------------------ contact-info ------------------>
+
+            <!------------------ education ------------------>
+            <section id="education" class="credentials resume-section">
+                <h2 class="section-header">
+                    Education
+                </h2>
+                <ul>
+                    <li class="degree">
+                        BS in Computer Science, Virginia Tech, GPA: 3.3
+                    </li>
+                </ul>
+            </section>
+            <!------------------ education ------------------>
+
+            <!------------------ experience ------------------>
+            <section id="experience" class="credentials resume-section">
+                <h2 class="section-header">
+                    Experience
+                </h2>
+                <ul id="job-experience">
+                    <li class="internship">
+                        <span class="position">
+                            IT Intern, Dynamic Aviation, 
+                        </span>
+                        <span class="address">
+                            1402 Airport Road, Bridegater, VA 22812.
+                        </span>
+                        <span class="duties">
+                            Duties included Windows 7 to Windows 10 migration
+                            , train new hires in windows 10 configureation, and technical support. 
+                        </span>
+                        <span class="date">
+                            June 2020
+                        </span>
+                    </li>
+                    <li class="job">
+                        <span class="position">
+                            Team Member, Follett Higher Education, 
+                        </span>
+                        <span class="address">
+                            211 Bluestone Drive, Harirsonburg, VA 22807. 
+                        </span>
+                        <span class="duties">
+                            Duties Included customer service, maintaining 
+                            knowledge on Apple and Dell products, and assisting team. 
+                        </span>
+                        <span class="date">
+                            April 2019
+                        </span>
+                    </li>
+                </ul>
+            </section>
+            <!------------------ experience ------------------>
+
+            <!------------------ computer skills ------------------>
+            <section id="computer-skills" class="credentials resume-section">
+                <h2 class="section-header">Computer Skills</h2>
+                <div id="programming-languages"> <!-- Programming languages -->
+                    <h3 class="subsec-header skill-header">Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>Swift</li>
+                        <li>MATLAB</li>
                     </ul>
-                </section> <!-- education -->
-    
-                <section id="experience" class="credentials resume-section">
-                    <h2 class="section-header">
-                        Experience
-                    </h2>
-                    <ul id="job-experience">
-                        <li class="internship">
-                            <span class="position">
-                                IT Intern, Dynamic Aviation, 
-                            </span>
-                            <span class="address">
-                                1402 Airport Road, Bridegater, VA 22812.
-                            </span>
-                            <span class="duties">
-                                Duties included Windows 7 to Windows 10 migration
-                                , train new hires in windows 10 configureation, and technical support. 
-                            </span>
-                            <span class="date">
-                                June 2020
-                            </span>
-                        </li>
-                        <li class="job">
-                            <span class="position">
-                                Team Member, Follett Higher Education, 
-                            </span>
-                            <span class="address">
-                                211 Bluestone Drive, Harirsonburg, VA 22807. 
-                            </span>
-                            <span class="duties">
-                                Duties Included customer service, maintaining 
-                                knowledge on Apple and Dell products, and assisting team. 
-                            </span>
-                            <span class="date">
-                                April 2019
-                            </span>
-                        </li>
+                </div>
+                <div id="software-operating-systems"> <!-- Software Operating Systems-->
+                    <h3 class="subsec-header skill-header">Software/Operating Systems</h3>
+                    <ul class="skill-list">
+                        <li>Windows</li>
+                        <li>Linux</li>
+                        <li>Eclipse</li>
+                        <li>Visual Studio Code</li>
+                        <li>Solid works</li>
+                        <li>Fusion360</li>
                     </ul>
-                </section> <!-- experience -->
-                <section id="computer-skills" class="credentials resume-section">
-                    <h2 class="section-header">Computer Skills</h2>
-                    <div id="programming-languages"> <!-- Programming languages -->
-                        <h3 class="subsec-header skill-header">Programming Languages</h3>
-                        <ul class="skill-list">
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>C</li>
-                            <li>Swift</li>
-                            <li>MATLAB</li>
-                        </ul>
-                    </div>
-                    <div id="software-operating-systems"> <!-- Software Operating Systems-->
-                        <h3 class="subsec-header skill-header">Software/Operating Systems</h3>
-                        <ul class="skill-list">
-                            <li>Windows</li>
-                            <li>Linux</li>
-                            <li>Eclipse</li>
-                            <li>Visual Studio Code</li>
-                            <li>Solid works</li>
-                            <li>Fusion360</li>
-                        </ul>
-                    </div>
-                </section> <!-- computer-skills -->
-    
-                <section id="activites" class="credentials resume-section">
-                    <h2 class="section-header">
-                        Activites
-                    </h2>
-                    <ul class="activities-list">
-                        <li>
-                            <span class="activity">
-                                Virginia Tech Swim Club. 
-                            </span>
-                            <span class="date">
-                                2018-2020
-                            </span>
-                        </li>
-                        <li>
-                            <span class="activity">
-                                Ashby Swim Team Coach. 
-                            </span>
-                            <span class="date">
-                                2015-2018
-                            </span>
-                        </li>
-                    </ul>
-                </section> <!-- activites -->
-    
-                <section id="achievements" class="credentials resume-section">
-                    <h2 class="section-header">
-                        Achievements
-                    </h2>
-                    <ul class="achievement-list">
-                        <li>
-                            <span class="achievement">
-                                MTC Computer Repair and Networking Certificate. 
-                            </span>
-                            <span class="date">
-                                June 2017
-                            </span>
-                        </li>
-                        <li>
-                            <span class="achievement">
-                                TSA State top 12 in Structural Design. 
-                            </span>
-                            <span class="date">
-                                May 2017
-                            </span>
-                        </li>
-                    </ul>
-                </section> <!-- achievements -->
-                
-            </div>
-            <div id="footer">
-                <span class="footer-item">
-                    Hosted by |
-                </span>
-                <nav id="navigation-link" class="footer-item">
-                    <a href="https://github.com/">github</a>
-                </nav>
-            </div>
+                </div>
+            </section>
+            <!------------------ computer skills ------------------>
+
+            <!------------------ activities ------------------>
+            <section id="activites" class="credentials resume-section">
+                <h2 class="section-header">
+                    Activites
+                </h2>
+                <ul class="activities-list">
+                    <li>
+                        <span class="activity">
+                            Virginia Tech Swim Club. 
+                        </span>
+                        <span class="date">
+                            2018-2020
+                        </span>
+                    </li>
+                    <li>
+                        <span class="activity">
+                            Ashby Swim Team Coach. 
+                        </span>
+                        <span class="date">
+                            2015-2018
+                        </span>
+                    </li>
+                </ul>
+            </section> 
+            <!------------------ activities ------------------>
+
+            <!------------------ achievements ------------------>
+            <section id="achievements" class="credentials resume-section">
+                <h2 class="section-header">
+                    Achievements
+                </h2>
+                <ul class="achievement-list">
+                    <li>
+                        <span class="achievement">
+                            MTC Computer Repair and Networking Certificate. 
+                        </span>
+                        <span class="date">
+                            June 2017
+                        </span>
+                    </li>
+                    <li>
+                        <span class="achievement">
+                            TSA State top 12 in Structural Design. 
+                        </span>
+                        <span class="date">
+                            May 2017
+                        </span>
+                    </li>
+                </ul>
+            </section>
+            <!------------------ achievements ------------------>
+        </div>
+
+        <!------------------------------------------------->
+        <!--------------   | Page Footer |   -------------->
+        <!------------------------------------------------->
+
+        <div id="footer">
+            <span class="footer-item">
+                 Hosted by |
+            </span>
+            <nav id="navigation-link" class="footer-item">
+                <a href="https://github.com/">github</a>
+            </nav>
         </div>
     </body>
 </html>
