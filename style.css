@@ -34,8 +34,8 @@ body {
  * Scale banner images to fit
  */
 img.banner-item {
-    size: 5em;
     height: 5em;
+    width: 5em;
 }
 
 /*
