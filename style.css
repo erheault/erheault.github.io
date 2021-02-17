@@ -1,5 +1,5 @@
 ﻿:root {
-    --banner-size: 80px;
+    --banner-size: 5em;
     background-color: #f4ede7;
 }
 
@@ -16,6 +16,7 @@ body {
     min-height: var(--banner-size);
     background-color: #7a8962;
     margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -25,8 +26,16 @@ body {
     color: #f4ede7;
     position: relative;
     float: left;
-    padding-left: 20px;
-    padding-top: 4px;
+    padding-left: 1.25em;
+    padding-top: 0.25em;
+}
+
+/*
+ * Scale banner images to fit
+ */
+img.banner-item {
+    size: 5em;
+    height: 5em;
 }
 
 /*
@@ -45,13 +54,13 @@ body {
     width: 100%;
     float: left;
     padding-left: 45%;
-    min-height: 25px;
-    padding-top: 5px;
+    min-height: 1.6em;
+    padding-top: 0.3em;
 }
 
 .footer-item {
     color: #f4ede7;
     float: left;
-    padding-right: 5px;
+    padding-right: 0.3em;
     background-color: #8e7636;
 }
